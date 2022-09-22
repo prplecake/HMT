@@ -811,7 +811,7 @@ Public Class Map
             Select Case fileHeader.version
                 Case 5
                     result = result Or eOpenFile.Success Or eOpenFile.Xbox
-                Case 7
+                Case 7, 13
                     result = result Or eOpenFile.Success Or eOpenFile.PC
                 Case Else
                     'Check and see if this is the demo
@@ -840,7 +840,7 @@ Public Class Map
         Select Case fileHeader.version
             Case 5
                 result = result Or eOpenFile.Success Or eOpenFile.Xbox
-            Case 7
+            Case 7, 13
                 result = result Or eOpenFile.Success Or eOpenFile.PC
             Case Else
                 'Check and see if this is the demo
