@@ -1,254 +1,212 @@
-<VisualStudioProject>
-    <VisualBasic
-        ProjectType = "Local"
-        ProductVersion = "7.10.3077"
-        SchemaVersion = "2.0"
-        ProjectGuid = "{9EEB6208-01FF-4BBE-B55F-8F0DE4D18767}"
-    >
-        <Build>
-            <Settings
-                ApplicationIcon = "HaloSoundEditor.ico"
-                AssemblyKeyContainerName = ""
-                AssemblyName = "HaloMapTools"
-                AssemblyOriginatorKeyFile = ""
-                AssemblyOriginatorKeyMode = "None"
-                DefaultClientScript = "JScript"
-                DefaultHTMLPageLayout = "Grid"
-                DefaultTargetSchema = "IE50"
-                DelaySign = "false"
-                OutputType = "WinExe"
-                OptionCompare = "Binary"
-                OptionExplicit = "On"
-                OptionStrict = "Off"
-                RootNamespace = "HaloSoundTools"
-                StartupObject = "HaloSoundTools.frmMain"
-            >
-                <Config
-                    Name = "Debug"
-                    BaseAddress = "285212672"
-                    ConfigurationOverrideFile = ""
-                    DefineConstants = ""
-                    DefineDebug = "true"
-                    DefineTrace = "true"
-                    DebugSymbols = "true"
-                    IncrementalBuild = "true"
-                    Optimize = "false"
-                    OutputPath = "bin\"
-                    RegisterForComInterop = "false"
-                    RemoveIntegerChecks = "false"
-                    TreatWarningsAsErrors = "false"
-                    WarningLevel = "1"
-                />
-                <Config
-                    Name = "Release"
-                    BaseAddress = "285212672"
-                    ConfigurationOverrideFile = ""
-                    DefineConstants = ""
-                    DefineDebug = "false"
-                    DefineTrace = "true"
-                    DebugSymbols = "false"
-                    IncrementalBuild = "false"
-                    Optimize = "true"
-                    OutputPath = "bin\"
-                    RegisterForComInterop = "false"
-                    RemoveIntegerChecks = "false"
-                    TreatWarningsAsErrors = "false"
-                    WarningLevel = "1"
-                />
-            </Settings>
-            <References>
-                <Reference
-                    Name = "System"
-                    AssemblyName = "System"
-                />
-                <Reference
-                    Name = "System.Data"
-                    AssemblyName = "System.Data"
-                />
-                <Reference
-                    Name = "System.Drawing"
-                    AssemblyName = "System.Drawing"
-                />
-                <Reference
-                    Name = "System.Windows.Forms"
-                    AssemblyName = "System.Windows.Forms"
-                />
-                <Reference
-                    Name = "System.XML"
-                    AssemblyName = "System.Xml"
-                />
-                <Reference
-                    Name = "Microsoft.VisualBasic"
-                    AssemblyName = "Microsoft.VisualBasic"
-                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.VisualBasic.dll"
-                />
-                <Reference
-                    Name = "System.Design"
-                    AssemblyName = "System.Design"
-                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
-                />
-                <Reference
-                    Name = "XPanderControl"
-                    AssemblyName = "XPanderControl"
-                    HintPath = "XPanderControl.dll"
-                />
-                <Reference
-                    Name = "sndLib"
-                    Project = "{7FAEAD37-1F6F-42AC-81A2-6E75A174FBFC}"
-                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
-                />
-                <Reference
-                    Name = "HMTLib"
-                    Project = "{FC854AC6-BAA3-431B-87D7-669A7EAC487B}"
-                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
-                />
-                <Reference
-                    Name = "BitmLib"
-                    Project = "{F1AF2551-8F38-466E-9A7C-CF8C786D3AD9}"
-                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
-                    Private = "True"
-                />
-                <Reference
-                    Name = "ScnrLib"
-                    Project = "{73F8E649-F56D-45E0-9C3C-BF17FA674863}"
-                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
-                />
-                <Reference
-                    Name = "HaloMap"
-                    Project = "{A0647B71-4197-4094-9731-2F315A4E835E}"
-                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
-                />
-                <Reference
-                    Name = "Microsoft.DirectX.Direct3D"
-                    AssemblyName = "Microsoft.DirectX.Direct3D"
-                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v4.09.00.0900\Microsoft.DirectX.Direct3D.dll"
-                    AssemblyFolderKey = "hklm\dn\manageddx"
-                    Private = "True"
-                />
-                <Reference
-                    Name = "XMLLib"
-                    Project = "{032890EE-1C1A-42F4-86E0-A07A20A6FBC5}"
-                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
-                />
-            </References>
-            <Imports>
-                <Import Namespace = "Microsoft.VisualBasic" />
-                <Import Namespace = "System" />
-                <Import Namespace = "System.Collections" />
-                <Import Namespace = "System.Data" />
-                <Import Namespace = "System.Drawing" />
-                <Import Namespace = "System.Diagnostics" />
-                <Import Namespace = "System.Windows.Forms" />
-            </Imports>
-        </Build>
-        <Files>
-            <Include>
-                <File
-                    RelPath = "adpcmencodeGUI.vb"
-                    SubType = "Form"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "adpcmencodeGUI.resx"
-                    DependentUpon = "adpcmencodeGUI.vb"
-                    BuildAction = "EmbeddedResource"
-                />
-                <File
-                    RelPath = "AppInit.vb"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "AssemblyInfo.vb"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "BatchExtractStarter.vb"
-                    SubType = "Form"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "BatchExtractStarter.resx"
-                    DependentUpon = "BatchExtractStarter.vb"
-                    BuildAction = "EmbeddedResource"
-                />
-                <File
-                    RelPath = "frmAbout.vb"
-                    SubType = "Form"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "frmAbout.resx"
-                    DependentUpon = "frmAbout.vb"
-                    BuildAction = "EmbeddedResource"
-                />
-                <File
-                    RelPath = "frmBox.vb"
-                    SubType = "Form"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "frmBox.resx"
-                    DependentUpon = "frmBox.vb"
-                    BuildAction = "EmbeddedResource"
-                />
-                <File
-                    RelPath = "frmGenerateHeader.vb"
-                    SubType = "Form"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "frmGenerateHeader.resx"
-                    DependentUpon = "frmGenerateHeader.vb"
-                    BuildAction = "EmbeddedResource"
-                />
-                <File
-                    RelPath = "Halo Map Tools.vb"
-                    SubType = "Form"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "Halo Map Tools.resx"
-                    DependentUpon = "Halo Map Tools.vb"
-                    BuildAction = "EmbeddedResource"
-                />
-                <File
-                    RelPath = "HaloSoundEditor.ico"
-                    BuildAction = "Content"
-                />
-                <File
-                    RelPath = "MapRebuildStarter.vb"
-                    SubType = "Form"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "MapRebuildStarter.resx"
-                    DependentUpon = "MapRebuildStarter.vb"
-                    BuildAction = "EmbeddedResource"
-                />
-                <File
-                    RelPath = "Recent.vb"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "SCNRHelper.vb"
-                    SubType = "Form"
-                    BuildAction = "Compile"
-                />
-                <File
-                    RelPath = "SCNRHelper.resx"
-                    DependentUpon = "SCNRHelper.vb"
-                    BuildAction = "EmbeddedResource"
-                />
-                <File
-                    RelPath = "Swizzle.vb"
-                    SubType = "Code"
-                    BuildAction = "Compile"
-                />
-            </Include>
-        </Files>
-    </VisualBasic>
-</VisualStudioProject>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9EEB6208-01FF-4BBE-B55F-8F0DE4D18767}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>HaloSoundEditor.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>HaloMapTools</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>HaloSoundTools</RootNamespace>
+    <StartupObject>HaloSoundTools.frmMain</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>HaloMapTools.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>HaloMapTools.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bitm\BitmLib.vbproj">
+      <Name>BitmLib</Name>
+      <Project>{F1AF2551-8F38-466E-9A7C-CF8C786D3AD9}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\HaloMap\HaloMap.vbproj">
+      <Name>HaloMap</Name>
+      <Project>{A0647B71-4197-4094-9731-2F315A4E835E}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\HMTLib\HMTLib.vbproj">
+      <Name>HMTLib</Name>
+      <Project>{FC854AC6-BAA3-431B-87D7-669A7EAC487B}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\ScnrLib\ScnrLib.vbproj">
+      <Name>ScnrLib</Name>
+      <Project>{73F8E649-F56D-45E0-9C3C-BF17FA674863}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\snd!\sndLib.vbproj">
+      <Name>sndLib</Name>
+      <Project>{7FAEAD37-1F6F-42AC-81A2-6E75A174FBFC}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\XMLLib\XMLLib.vbproj">
+      <Name>XMLLib</Name>
+      <Project>{032890EE-1C1A-42F4-86E0-A07A20A6FBC5}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <Reference Include="Microsoft.DirectX.Direct3D">
+      <Name>Microsoft.DirectX.Direct3D</Name>
+      <HintPath>..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v4.09.00.0900\Microsoft.DirectX.Direct3D.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\manageddx</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="XPanderControl">
+      <Name>XPanderControl</Name>
+      <HintPath>XPanderControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adpcmencodeGUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppInit.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BatchExtractStarter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenerateHeader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halo Map Tools.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapRebuildStarter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recent.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SCNRHelper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Swizzle.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="HaloSoundEditor.ico" />
+    <EmbeddedResource Include="adpcmencodeGUI.resx">
+      <DependentUpon>adpcmencodeGUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatchExtractStarter.resx">
+      <DependentUpon>BatchExtractStarter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBox.resx">
+      <DependentUpon>frmBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenerateHeader.resx">
+      <DependentUpon>frmGenerateHeader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halo Map Tools.resx">
+      <DependentUpon>Halo Map Tools.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapRebuildStarter.resx">
+      <DependentUpon>MapRebuildStarter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCNRHelper.resx">
+      <DependentUpon>SCNRHelper.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>
