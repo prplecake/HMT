@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+ <html xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><meta content="en-us" http-equiv="Content-Language" /><meta content="text/html; charset=utf-16" http-equiv="Content-Type" /><title _locID="ConversionReport0">
+          Migration Report
+        </title><style> 
+                    /* Body style, for the entire document */
+                    body
+                    {
+                        background: #F3F3F4;
+                        color: #1E1E1F;
+                        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    /* Header1 style, used for the main title */
+                    h1
+                    {
+                        padding: 10px 0px 10px 10px;
+                        font-size: 21pt;
+                        background-color: #E2E2E2;
+                        border-bottom: 1px #C1C1C2 solid; 
+                        color: #201F20;
+                        margin: 0;
+                        font-weight: normal;
+                    }
+
+                    /* Header2 style, used for "Overview" and other sections */
+                    h2
+                    {
+                        font-size: 18pt;
+                        font-weight: normal;
+                        padding: 15px 0 5px 0;
+                        margin: 0;
+                    }
+
+                    /* Header3 style, used for sub-sections, such as project name */
+                    h3
+                    {
+                        font-weight: normal;
+                        font-size: 15pt;
+                        margin: 0;
+                        padding: 15px 0 5px 0;
+                        background-color: transparent;
+                    }
+
+                    /* Color all hyperlinks one color */
+                    a
+                    {
+                        color: #1382CE;
+                    }
+
+                    /* Table styles */ 
+                    table
+                    {
+                        border-spacing: 0 0;
+                        border-collapse: collapse;
+                        font-size: 10pt;
+                    }
+
+                    table th
+                    {
+                        background: #E7E7E8;
+                        text-align: left;
+                        text-decoration: none;
+                        font-weight: normal;
+                        padding: 3px 6px 3px 6px;
+                    }
+
+                    table td
+                    {
+                        vertical-align: top;
+                        padding: 3px 6px 5px 5px;
+                        margin: 0px;
+                        border: 1px solid #E7E7E8;
+                        background: #F7F7F8;
+                    }
+
+                    /* Local link is a style for hyperlinks that link to file:/// content, there are lots so color them as 'normal' text until the user mouse overs */
+                    .localLink
+                    {
+                        color: #1E1E1F;
+                        background: #EEEEED;
+                        text-decoration: none;
+                    }
+
+                    .localLink:hover
+                    {
+                        color: #1382CE;
+                        background: #FFFF99;
+                        text-decoration: none;
+                    }
+
+                    /* Center text, used in the over views cells that contain message level counts */ 
+                    .textCentered
+                    {
+                        text-align: center;
+                    }
+
+                    /* The message cells in message tables should take up all avaliable space */
+                    .messageCell
+                    {
+                        width: 100%;
+                    }
+
+                    /* Padding around the content after the h1 */ 
+                    #content 
+                    {
+	                    padding: 0px 12px 12px 12px; 
+                    }
+
+                    /* The overview table expands to width, with a max width of 97% */ 
+                    #overview table
+                    {
+                        width: auto;
+                        max-width: 75%; 
+                    }
+
+                    /* The messages tables are always 97% width */
+                    #messages table
+                    {
+                        width: 97%;
+                    }
+
+                    /* All Icons */
+                    .IconSuccessEncoded, .IconInfoEncoded, .IconWarningEncoded, .IconErrorEncoded
+                    {
+                        min-width:18px;
+                        min-height:18px; 
+                        background-repeat:no-repeat;
+                        background-position:center;
+                    }
+
+                    /* Success icon encoded */
+                    .IconSuccessEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconSuccess#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABcElEQVR4Xq2TsUsCURzHv15g8ZJcBWlyiYYgCIWcb9DFRRwMW5TA2c0/QEFwFkxxUQdxVlBwCYWOi6IhWgQhBLHJUCkhLr/BW8S7gvrAg+N+v8/v+x68Z8MGy+XSCyABQAXgBgHGALoASkIIDWSLeLBetdHryMjd5IxQPWT4rn1c/P7+xxp72Cs9m5SZ0Bq2vPnbPFafK2zDvmNHypdC0BPkLlQhxJsCAhQoZwdZU5mwxh720qGo8MzTxTTKZDPCx2HoVzp6lz0Q9tKhyx0kGs8Ny+TkWRKk8lCROwEduhyg9l/6lunOPSfmH3NUH6uQ0KHLAe7JYvJjevm+DAMGJHToKtigE+vwvIidxLamb8IBY9e+C5LiXREkfho3TSd06HJA13/oh6T51MTsfQbHrsMynQ5dDihFjiK8JJAU9AKIWTp76dCVN7HWHrajmUEGvyF9nkbAE6gLIS7kTUyuf2gscLoJrElZo/Mvj+nPz/kLTmfnEwP3tB0AAAAASUVORK5CYII=);
+                    }
+
+                    /* Information icon encoded */
+                    .IconInfoEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconInformation#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHElEQVR4Xs2TsUoDQRRF7wwoziokjZUKadInhdhukR9YP8DMX1hYW+QvdsXa/QHBbcXC7W0CamWTQnclFutceIQJwwaWNLlwm5k5d94M76mmaeCrrmsLYOocY12FcxZFUeozCqKqqgYA8uevv1H6VuPxcwlfk5N92KHBxfFeCSAxxswlYAW/Xr989x/mv9gkhtyMDhcAxgzRsp7flj8B/HF1RsMXq+NZMkopaHe7lbKxQUEIGbKsYNoGn969060hZBkQex/W8oRQwsQaW2o3Ago2SVcJUzAgY3N0lTCZZm+zPS8HB51gMmS1DEYyOz9acKO1D8JWTlafKIMxdhvlfdyT94Vv5h7P8Ky7nQzACmhvKq3zk3PjW9asz9D/1oigecsioooAAAAASUVORK5CYII=);
+                    }
+
+                    /* Warning icon encoded */
+                    .IconWarningEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconWarning#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAx0lEQVR4XpWSMQ7CMAxFf4xAyBMLCxMrO8dhaBcuwdCJS3RJBw7SA/QGTCxdWJgiQYWKXJWKIXHIlyw5lqr34tQgEOdcBsCOx5yZK3hCCKdYXneQkh4pEfqzLfu+wVDSyyzFoJjfz9NB+pAF+eizx2Vruts0k15mPgvS6GYvpVtQhB61IB/dk6AF6fS4Ben0uIX5odtFe8Q/eW1KvFeH4e8khT6+gm5B+t3juyDt7n0jpe+CANTd+oTUjN/U3yVaABnSUjFz/gFq44JaVSCXeQAAAABJRU5ErkJggg==);
+                    }
+
+                    /* Error icon encoded */
+                    .IconErrorEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconError#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQElEQVR4XqWTvUoEQRCE6wYPZUA80AfwAQz23uCMjA7MDRQEIzPBVEyNTQUFIw00vcQTTMzuAh/AxEQQT8HF/3G/oGGnEUGuoNnd6qoZuqltyKEsyzVJq5I6rnUp6SjGeGhESikzzlc1eL7opfuVbrqbU1Zw9NCgtQMaZpY0eNnaaL2fHusvTK5vKu7sjSS1Y4y3QUA6K3e3Mau5UFDyMP7tYF9o8cAHZv68vipoIJg971PZIZ5HiwdvYGGvFVFHmGmZ2MxwmQYPXubPl9Up0tfoMQGetXd6mRbvhBw+boZ6WF7Mbv1+GsHRk0fQmPAH1GfmZirbCfDJ61tw3Px8/8pZsPAG4jlVhcPgZ7adwNWBB68lkRQWFiTgFlbnLY3DGGM7izIJIyT/jjIvEJw6fdJTc6krDzh6aMwMP9bvDH4ADSsa9uSWVJkAAAAASUVORK5CYII=);
+                    }
+                 </style><script type="text/javascript" language="javascript"> 
+          
+            // Startup 
+            // Hook up the the loaded event for the document/window, to linkify the document content
+            var startupFunction = function() { linkifyElement("messages"); };
+            
+            if(window.attachEvent)
+            {
+              window.attachEvent('onload', startupFunction);
+            }
+            else if (window.addEventListener) 
+            {
+              window.addEventListener('load', startupFunction, false);
+            }
+            else 
+            {
+              document.addEventListener('load', startupFunction, false);
+            } 
+            
+            // Toggles the visibility of table rows with the specified name 
+            function toggleTableRowsByName(name)
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  if(!!currentName && currentName.indexOf(name) == 0)
+                  {
+                      var isVisible = allRows[i].style.display == ''; 
+                      isVisible ? allRows[i].style.display = 'none' : allRows[i].style.display = '';
+                  }
+               }
+            }
+            
+            function scrollToFirstVisibleRow(name) 
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  var isVisible = allRows[i].style.display == ''; 
+                  if(!!currentName && currentName.indexOf(name) == 0 && isVisible)
+                  {
+                     allRows[i].scrollIntoView(true); 
+                     return true; 
+                  }
+               }
+               
+               return false;
+            }
+            
+            // Linkifies the specified text content, replaces candidate links with html links 
+            function linkify(text)
+            {
+                 if(!text || 0 === text.length)
+                 {
+                     return text; 
+                 }
+
+                 // Find http, https and ftp links and replace them with hyper links 
+                 var urlLink = /(http|https|ftp)\:\/\/[a-zA-Z0-9\-\.]+(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\/\\\+&%\$#\=~;\{\}])*/gi;
+                 
+                 return text.replace(urlLink, '<a href="$&">$&</a>') ;
+            }
+            
+            // Linkifies the specified element by ID
+            function linkifyElement(id)
+            {
+                var element = document.getElementById(id);
+                if(!!element)
+                {
+                  element.innerHTML = linkify(element.innerHTML); 
+                }
+            }
+            
+            function ToggleMessageVisibility(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              toggleTableRowsByName("MessageRowClass" + projectName);
+              toggleTableRowsByName('MessageRowHeaderShow' + projectName);
+              toggleTableRowsByName('MessageRowHeaderHide' + projectName); 
+            }
+            
+            function ScrollToFirstVisibleMessage(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              // First try the 'Show messages' row
+              if(!scrollToFirstVisibleRow('MessageRowHeaderShow' + projectName))
+              {
+                // Failed to find a visible row for 'Show messages', try an actual message row 
+                scrollToFirstVisibleRow('MessageRowClass' + projectName); 
+              }
+            }
+           </script></head><body><h1 _locID="ConversionReport">
+          Migration Report - HaloMapEditor</h1><div id="content"><h2 _locID="OverviewTitle">Overview</h2><div id="overview"><table><tr><th></th><th _locID="ProjectTableHeader">Project</th><th _locID="PathTableHeader">Path</th><th _locID="ErrorsTableHeader">Errors</th><th _locID="WarningsTableHeader">Warnings</th><th _locID="MessagesTableHeader">Messages</th></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#HaloMapTools">HaloMapTools</a></strong></td><td>ResourceRepointer\HaloMapTools.vbproj</td><td class="textCentered"><a href="#HaloMapToolsError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('HaloMapTools'); return false;">24</a></td></tr><tr><td class="IconWarningEncoded" /><td><strong><a href="#Solution"><span _locID="OverviewSolutionSpan">Solution</span></a></strong></td><td>HaloMapEditor.sln</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#SolutionWarning">1</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('Solution'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#BitmLib">BitmLib</a></strong></td><td>Bitm\BitmLib.vbproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('BitmLib'); return false;">9</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#HaloMap">HaloMap</a></strong></td><td>HaloMap\HaloMap.vbproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('HaloMap'); return false;">7</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#HMTLib">HMTLib</a></strong></td><td>HMTLib\HMTLib.vbproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('HMTLib'); return false;">8</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#KnobControl">KnobControl</a></strong></td><td>KnobControl\KnobControl.vbproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('KnobControl'); return false;">8</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#ScnrLib">ScnrLib</a></strong></td><td>ScnrLib\ScnrLib.vbproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('ScnrLib'); return false;">7</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#sndLib">sndLib</a></strong></td><td>snd!\sndLib.vbproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('sndLib'); return false;">7</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#XMLLib">XMLLib</a></strong></td><td>XMLLib\XMLLib.vbproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('XMLLib'); return false;">7</a></td></tr></table></div><h2 _locID="SolutionAndProjectsTitle">Solution and projects</h2><div id="messages"><a name="HaloMapTools" /><h3>HaloMapTools</h3><table><tr id="HaloMapToolsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassHaloMapTools"><td class="IconErrorEncoded"><a name="HaloMapToolsError" /></td><td class="messageCell"><strong>ResourceRepointer\frmBox.resx:
+        </strong><span>Failed to backup file as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\frmBox.resx</span></td></tr><tr name="MessageRowHeaderShowHaloMapTools"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="HaloMapToolsMessage" onclick="ToggleMessageVisibility('HaloMapTools'); return false;">
+          Show 24 additional messages
+        </a></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\HaloMapTools.vbproj:
+        </strong><span>Project file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\HaloMapTools.vbproj</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\HaloMapTools.vbproj.user:
+        </strong><span>Project user file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\HaloMapTools.vbproj.user</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\adpcmencodeGUI.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\adpcmencodeGUI.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\AppInit.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\AppInit.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\AssemblyInfo.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\AssemblyInfo.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\BatchExtractStarter.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\BatchExtractStarter.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\frmAbout.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\frmAbout.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\frmBox.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\frmBox.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\frmGenerateHeader.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\frmGenerateHeader.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\Halo Map Tools.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\Halo Map Tools.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\MapRebuildStarter.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\MapRebuildStarter.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\Recent.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\Recent.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\SCNRHelper.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\SCNRHelper.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\Swizzle.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\Swizzle.vb</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\HaloSoundEditor.ico:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\HaloSoundEditor.ico</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\adpcmencodeGUI.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\adpcmencodeGUI.resx</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\BatchExtractStarter.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\BatchExtractStarter.resx</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\frmAbout.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\frmAbout.resx</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\frmGenerateHeader.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\frmGenerateHeader.resx</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\Halo Map Tools.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\Halo Map Tools.resx</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\MapRebuildStarter.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\MapRebuildStarter.resx</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\SCNRHelper.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ResourceRepointer\SCNRHelper.resx</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\HaloMapTools.vbproj:
+        </strong><span>Project migrated successfully</span></td></tr><tr name="MessageRowClassHaloMapTools" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapToolsMessage" /></td><td class="messageCell"><strong>ResourceRepointer\HaloMapTools.vbproj:
+        </strong><span>Scan complete: Migration not required for project files.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideHaloMapTools"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="HaloMapToolsMessage" onclick="ToggleMessageVisibility('HaloMapTools'); return false;">
+          Hide 24 additional messages
+        </a></td></tr></table><a name="Solution" /><h3 _locID="ProjectDisplayNameHeader">Solution</h3><table><tr id="SolutionHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="WarningRowClassSolution"><td class="IconWarningEncoded"><a name="SolutionWarning" /></td><td class="messageCell"><strong>HaloMapEditor.sln:
+        </strong><span>Visual Studio needs to make non-functional changes to this project in order to enable the project to open in released versions of Visual Studio newer than Visual Studio 2010 SP1 without impacting project behavior.</span></td></tr><tr name="MessageRowHeaderShowSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassSolution" style="display: none"><td class="IconInfoEncoded"><a name="SolutionMessage" /></td><td class="messageCell"><strong>HaloMapEditor.sln:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HaloMapEditor.sln</span></td></tr><tr name="MessageRowClassSolution" style="display: none"><td class="IconInfoEncoded"><a name="SolutionMessage" /></td><td class="messageCell"><strong>HaloMapEditor.sln:
+        </strong><span>Solution migrated successfully</span></td></tr><tr style="display: none" name="MessageRowHeaderHideSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="BitmLib" /><h3>BitmLib</h3><table><tr id="BitmLibHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowBitmLib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="BitmLibMessage" onclick="ToggleMessageVisibility('BitmLib'); return false;">
+          Show 9 additional messages
+        </a></td></tr><tr name="MessageRowClassBitmLib" style="display: none"><td class="IconInfoEncoded"><a name="BitmLibMessage" /></td><td class="messageCell"><strong>Bitm\BitmLib.vbproj:
+        </strong><span>Project file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\Bitm\BitmLib.vbproj</span></td></tr><tr name="MessageRowClassBitmLib" style="display: none"><td class="IconInfoEncoded"><a name="BitmLibMessage" /></td><td class="messageCell"><strong>Bitm\BitmLib.vbproj.user:
+        </strong><span>Project user file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\Bitm\BitmLib.vbproj.user</span></td></tr><tr name="MessageRowClassBitmLib" style="display: none"><td class="IconInfoEncoded"><a name="BitmLibMessage" /></td><td class="messageCell"><strong>Bitm\AssemblyInfo.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\Bitm\AssemblyInfo.vb</span></td></tr><tr name="MessageRowClassBitmLib" style="display: none"><td class="IconInfoEncoded"><a name="BitmLibMessage" /></td><td class="messageCell"><strong>Bitm\bitm.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\Bitm\bitm.vb</span></td></tr><tr name="MessageRowClassBitmLib" style="display: none"><td class="IconInfoEncoded"><a name="BitmLibMessage" /></td><td class="messageCell"><strong>Bitm\frmTextureFullsize.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\Bitm\frmTextureFullsize.vb</span></td></tr><tr name="MessageRowClassBitmLib" style="display: none"><td class="IconInfoEncoded"><a name="BitmLibMessage" /></td><td class="messageCell"><strong>Bitm\bitm.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\Bitm\bitm.resx</span></td></tr><tr name="MessageRowClassBitmLib" style="display: none"><td class="IconInfoEncoded"><a name="BitmLibMessage" /></td><td class="messageCell"><strong>Bitm\frmTextureFullsize.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\Bitm\frmTextureFullsize.resx</span></td></tr><tr name="MessageRowClassBitmLib" style="display: none"><td class="IconInfoEncoded"><a name="BitmLibMessage" /></td><td class="messageCell"><strong>Bitm\BitmLib.vbproj:
+        </strong><span>Project migrated successfully</span></td></tr><tr name="MessageRowClassBitmLib" style="display: none"><td class="IconInfoEncoded"><a name="BitmLibMessage" /></td><td class="messageCell"><strong>Bitm\BitmLib.vbproj:
+        </strong><span>Scan complete: Migration not required for project files.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideBitmLib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="BitmLibMessage" onclick="ToggleMessageVisibility('BitmLib'); return false;">
+          Hide 9 additional messages
+        </a></td></tr></table><a name="HaloMap" /><h3>HaloMap</h3><table><tr id="HaloMapHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowHaloMap"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="HaloMapMessage" onclick="ToggleMessageVisibility('HaloMap'); return false;">
+          Show 7 additional messages
+        </a></td></tr><tr name="MessageRowClassHaloMap" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapMessage" /></td><td class="messageCell"><strong>HaloMap\HaloMap.vbproj:
+        </strong><span>Project file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HaloMap\HaloMap.vbproj</span></td></tr><tr name="MessageRowClassHaloMap" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapMessage" /></td><td class="messageCell"><strong>HaloMap\HaloMap.vbproj.user:
+        </strong><span>Project user file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HaloMap\HaloMap.vbproj.user</span></td></tr><tr name="MessageRowClassHaloMap" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapMessage" /></td><td class="messageCell"><strong>HaloMap\AssemblyInfo.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HaloMap\AssemblyInfo.vb</span></td></tr><tr name="MessageRowClassHaloMap" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapMessage" /></td><td class="messageCell"><strong>HaloMap\HaloMap.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HaloMap\HaloMap.vb</span></td></tr><tr name="MessageRowClassHaloMap" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapMessage" /></td><td class="messageCell"><strong>HaloMap\HaloMap.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HaloMap\HaloMap.resx</span></td></tr><tr name="MessageRowClassHaloMap" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapMessage" /></td><td class="messageCell"><strong>HaloMap\HaloMap.vbproj:
+        </strong><span>Project migrated successfully</span></td></tr><tr name="MessageRowClassHaloMap" style="display: none"><td class="IconInfoEncoded"><a name="HaloMapMessage" /></td><td class="messageCell"><strong>HaloMap\HaloMap.vbproj:
+        </strong><span>Scan complete: Migration not required for project files.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideHaloMap"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="HaloMapMessage" onclick="ToggleMessageVisibility('HaloMap'); return false;">
+          Hide 7 additional messages
+        </a></td></tr></table><a name="HMTLib" /><h3>HMTLib</h3><table><tr id="HMTLibHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowHMTLib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="HMTLibMessage" onclick="ToggleMessageVisibility('HMTLib'); return false;">
+          Show 8 additional messages
+        </a></td></tr><tr name="MessageRowClassHMTLib" style="display: none"><td class="IconInfoEncoded"><a name="HMTLibMessage" /></td><td class="messageCell"><strong>HMTLib\HMTLib.vbproj:
+        </strong><span>Project file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HMTLib\HMTLib.vbproj</span></td></tr><tr name="MessageRowClassHMTLib" style="display: none"><td class="IconInfoEncoded"><a name="HMTLibMessage" /></td><td class="messageCell"><strong>HMTLib\HMTLib.vbproj.user:
+        </strong><span>Project user file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HMTLib\HMTLib.vbproj.user</span></td></tr><tr name="MessageRowClassHMTLib" style="display: none"><td class="IconInfoEncoded"><a name="HMTLibMessage" /></td><td class="messageCell"><strong>HMTLib\AssemblyInfo.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HMTLib\AssemblyInfo.vb</span></td></tr><tr name="MessageRowClassHMTLib" style="display: none"><td class="IconInfoEncoded"><a name="HMTLibMessage" /></td><td class="messageCell"><strong>HMTLib\HMTLib.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HMTLib\HMTLib.vb</span></td></tr><tr name="MessageRowClassHMTLib" style="display: none"><td class="IconInfoEncoded"><a name="HMTLibMessage" /></td><td class="messageCell"><strong>HMTLib\TreeViewEX.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HMTLib\TreeViewEX.vb</span></td></tr><tr name="MessageRowClassHMTLib" style="display: none"><td class="IconInfoEncoded"><a name="HMTLibMessage" /></td><td class="messageCell"><strong>HMTLib\TreeViewEX.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\HMTLib\TreeViewEX.resx</span></td></tr><tr name="MessageRowClassHMTLib" style="display: none"><td class="IconInfoEncoded"><a name="HMTLibMessage" /></td><td class="messageCell"><strong>HMTLib\HMTLib.vbproj:
+        </strong><span>Project migrated successfully</span></td></tr><tr name="MessageRowClassHMTLib" style="display: none"><td class="IconInfoEncoded"><a name="HMTLibMessage" /></td><td class="messageCell"><strong>HMTLib\HMTLib.vbproj:
+        </strong><span>Scan complete: Migration not required for project files.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideHMTLib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="HMTLibMessage" onclick="ToggleMessageVisibility('HMTLib'); return false;">
+          Hide 8 additional messages
+        </a></td></tr></table><a name="KnobControl" /><h3>KnobControl</h3><table><tr id="KnobControlHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowKnobControl"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="KnobControlMessage" onclick="ToggleMessageVisibility('KnobControl'); return false;">
+          Show 8 additional messages
+        </a></td></tr><tr name="MessageRowClassKnobControl" style="display: none"><td class="IconInfoEncoded"><a name="KnobControlMessage" /></td><td class="messageCell"><strong>KnobControl\KnobControl.vbproj:
+        </strong><span>Project file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\KnobControl\KnobControl.vbproj</span></td></tr><tr name="MessageRowClassKnobControl" style="display: none"><td class="IconInfoEncoded"><a name="KnobControlMessage" /></td><td class="messageCell"><strong>KnobControl\KnobControl.vbproj.user:
+        </strong><span>Project user file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\KnobControl\KnobControl.vbproj.user</span></td></tr><tr name="MessageRowClassKnobControl" style="display: none"><td class="IconInfoEncoded"><a name="KnobControlMessage" /></td><td class="messageCell"><strong>KnobControl\AssemblyInfo.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\KnobControl\AssemblyInfo.vb</span></td></tr><tr name="MessageRowClassKnobControl" style="display: none"><td class="IconInfoEncoded"><a name="KnobControlMessage" /></td><td class="messageCell"><strong>KnobControl\CUtility.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\KnobControl\CUtility.vb</span></td></tr><tr name="MessageRowClassKnobControl" style="display: none"><td class="IconInfoEncoded"><a name="KnobControlMessage" /></td><td class="messageCell"><strong>KnobControl\KnobControl.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\KnobControl\KnobControl.vb</span></td></tr><tr name="MessageRowClassKnobControl" style="display: none"><td class="IconInfoEncoded"><a name="KnobControlMessage" /></td><td class="messageCell"><strong>KnobControl\KnobControl.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\KnobControl\KnobControl.resx</span></td></tr><tr name="MessageRowClassKnobControl" style="display: none"><td class="IconInfoEncoded"><a name="KnobControlMessage" /></td><td class="messageCell"><strong>KnobControl\KnobControl.vbproj:
+        </strong><span>Project migrated successfully</span></td></tr><tr name="MessageRowClassKnobControl" style="display: none"><td class="IconInfoEncoded"><a name="KnobControlMessage" /></td><td class="messageCell"><strong>KnobControl\KnobControl.vbproj:
+        </strong><span>Scan complete: Migration not required for project files.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideKnobControl"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="KnobControlMessage" onclick="ToggleMessageVisibility('KnobControl'); return false;">
+          Hide 8 additional messages
+        </a></td></tr></table><a name="ScnrLib" /><h3>ScnrLib</h3><table><tr id="ScnrLibHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowScnrLib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="ScnrLibMessage" onclick="ToggleMessageVisibility('ScnrLib'); return false;">
+          Show 7 additional messages
+        </a></td></tr><tr name="MessageRowClassScnrLib" style="display: none"><td class="IconInfoEncoded"><a name="ScnrLibMessage" /></td><td class="messageCell"><strong>ScnrLib\ScnrLib.vbproj:
+        </strong><span>Project file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ScnrLib\ScnrLib.vbproj</span></td></tr><tr name="MessageRowClassScnrLib" style="display: none"><td class="IconInfoEncoded"><a name="ScnrLibMessage" /></td><td class="messageCell"><strong>ScnrLib\ScnrLib.vbproj.user:
+        </strong><span>Project user file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ScnrLib\ScnrLib.vbproj.user</span></td></tr><tr name="MessageRowClassScnrLib" style="display: none"><td class="IconInfoEncoded"><a name="ScnrLibMessage" /></td><td class="messageCell"><strong>ScnrLib\AssemblyInfo.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ScnrLib\AssemblyInfo.vb</span></td></tr><tr name="MessageRowClassScnrLib" style="display: none"><td class="IconInfoEncoded"><a name="ScnrLibMessage" /></td><td class="messageCell"><strong>ScnrLib\ScnrLib.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ScnrLib\ScnrLib.vb</span></td></tr><tr name="MessageRowClassScnrLib" style="display: none"><td class="IconInfoEncoded"><a name="ScnrLibMessage" /></td><td class="messageCell"><strong>ScnrLib\ScnrLib.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\ScnrLib\ScnrLib.resx</span></td></tr><tr name="MessageRowClassScnrLib" style="display: none"><td class="IconInfoEncoded"><a name="ScnrLibMessage" /></td><td class="messageCell"><strong>ScnrLib\ScnrLib.vbproj:
+        </strong><span>Project migrated successfully</span></td></tr><tr name="MessageRowClassScnrLib" style="display: none"><td class="IconInfoEncoded"><a name="ScnrLibMessage" /></td><td class="messageCell"><strong>ScnrLib\ScnrLib.vbproj:
+        </strong><span>Scan complete: Migration not required for project files.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideScnrLib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="ScnrLibMessage" onclick="ToggleMessageVisibility('ScnrLib'); return false;">
+          Hide 7 additional messages
+        </a></td></tr></table><a name="sndLib" /><h3>sndLib</h3><table><tr id="sndLibHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowsndLib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="sndLibMessage" onclick="ToggleMessageVisibility('sndLib'); return false;">
+          Show 7 additional messages
+        </a></td></tr><tr name="MessageRowClasssndLib" style="display: none"><td class="IconInfoEncoded"><a name="sndLibMessage" /></td><td class="messageCell"><strong>snd!\sndLib.vbproj:
+        </strong><span>Project file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\snd!\sndLib.vbproj</span></td></tr><tr name="MessageRowClasssndLib" style="display: none"><td class="IconInfoEncoded"><a name="sndLibMessage" /></td><td class="messageCell"><strong>snd!\sndLib.vbproj.user:
+        </strong><span>Project user file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\snd!\sndLib.vbproj.user</span></td></tr><tr name="MessageRowClasssndLib" style="display: none"><td class="IconInfoEncoded"><a name="sndLibMessage" /></td><td class="messageCell"><strong>snd!\AssemblyInfo.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\snd!\AssemblyInfo.vb</span></td></tr><tr name="MessageRowClasssndLib" style="display: none"><td class="IconInfoEncoded"><a name="sndLibMessage" /></td><td class="messageCell"><strong>snd!\sndLib.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\snd!\sndLib.vb</span></td></tr><tr name="MessageRowClasssndLib" style="display: none"><td class="IconInfoEncoded"><a name="sndLibMessage" /></td><td class="messageCell"><strong>snd!\sndLib.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\snd!\sndLib.resx</span></td></tr><tr name="MessageRowClasssndLib" style="display: none"><td class="IconInfoEncoded"><a name="sndLibMessage" /></td><td class="messageCell"><strong>snd!\sndLib.vbproj:
+        </strong><span>Project migrated successfully</span></td></tr><tr name="MessageRowClasssndLib" style="display: none"><td class="IconInfoEncoded"><a name="sndLibMessage" /></td><td class="messageCell"><strong>snd!\sndLib.vbproj:
+        </strong><span>Scan complete: Migration not required for project files.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidesndLib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="sndLibMessage" onclick="ToggleMessageVisibility('sndLib'); return false;">
+          Hide 7 additional messages
+        </a></td></tr></table><a name="XMLLib" /><h3>XMLLib</h3><table><tr id="XMLLibHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowXMLLib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="XMLLibMessage" onclick="ToggleMessageVisibility('XMLLib'); return false;">
+          Show 7 additional messages
+        </a></td></tr><tr name="MessageRowClassXMLLib" style="display: none"><td class="IconInfoEncoded"><a name="XMLLibMessage" /></td><td class="messageCell"><strong>XMLLib\XMLLib.vbproj:
+        </strong><span>Project file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\XMLLib\XMLLib.vbproj</span></td></tr><tr name="MessageRowClassXMLLib" style="display: none"><td class="IconInfoEncoded"><a name="XMLLibMessage" /></td><td class="messageCell"><strong>XMLLib\XMLLib.vbproj.user:
+        </strong><span>Project user file successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\XMLLib\XMLLib.vbproj.user</span></td></tr><tr name="MessageRowClassXMLLib" style="display: none"><td class="IconInfoEncoded"><a name="XMLLibMessage" /></td><td class="messageCell"><strong>XMLLib\AssemblyInfo.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\XMLLib\AssemblyInfo.vb</span></td></tr><tr name="MessageRowClassXMLLib" style="display: none"><td class="IconInfoEncoded"><a name="XMLLibMessage" /></td><td class="messageCell"><strong>XMLLib\XMLLib.vb:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\XMLLib\XMLLib.vb</span></td></tr><tr name="MessageRowClassXMLLib" style="display: none"><td class="IconInfoEncoded"><a name="XMLLibMessage" /></td><td class="messageCell"><strong>XMLLib\XMLLib.resx:
+        </strong><span>File successfully backed up as C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\Backup\XMLLib\XMLLib.resx</span></td></tr><tr name="MessageRowClassXMLLib" style="display: none"><td class="IconInfoEncoded"><a name="XMLLibMessage" /></td><td class="messageCell"><strong>XMLLib\XMLLib.vbproj:
+        </strong><span>Project migrated successfully</span></td></tr><tr name="MessageRowClassXMLLib" style="display: none"><td class="IconInfoEncoded"><a name="XMLLibMessage" /></td><td class="messageCell"><strong>XMLLib\XMLLib.vbproj:
+        </strong><span>Scan complete: Migration not required for project files.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideXMLLib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="XMLLibMessage" onclick="ToggleMessageVisibility('XMLLib'); return false;">
+          Hide 7 additional messages
+        </a></td></tr></table></div></div></body></html>

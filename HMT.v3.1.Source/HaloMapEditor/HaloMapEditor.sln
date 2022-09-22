@@ -1,0 +1,77 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XMLLib", "XMLLib\XMLLib.vbproj", "{032890EE-1C1A-42F4-86E0-A07A20A6FBC5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BitmLib", "Bitm\BitmLib.vbproj", "{F1AF2551-8F38-466E-9A7C-CF8C786D3AD9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HaloMap", "HaloMap\HaloMap.vbproj", "{A0647B71-4197-4094-9731-2F315A4E835E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HMTLib", "HMTLib\HMTLib.vbproj", "{FC854AC6-BAA3-431B-87D7-669A7EAC487B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ScnrLib", "ScnrLib\ScnrLib.vbproj", "{73F8E649-F56D-45E0-9C3C-BF17FA674863}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "sndLib", "snd!\sndLib.vbproj", "{7FAEAD37-1F6F-42AC-81A2-6E75A174FBFC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "KnobControl", "KnobControl\KnobControl.vbproj", "{2706D59E-5F5C-4B3F-8E2B-D5D3C85960C0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HaloMapTools", "ResourceRepointer\HaloMapTools.vbproj", "{9EEB6208-01FF-4BBE-B55F-8F0DE4D18767}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{032890EE-1C1A-42F4-86E0-A07A20A6FBC5}.Debug.ActiveCfg = Debug|.NET
+		{032890EE-1C1A-42F4-86E0-A07A20A6FBC5}.Debug.Build.0 = Debug|.NET
+		{032890EE-1C1A-42F4-86E0-A07A20A6FBC5}.Release.ActiveCfg = Release|.NET
+		{032890EE-1C1A-42F4-86E0-A07A20A6FBC5}.Release.Build.0 = Release|.NET
+		{F1AF2551-8F38-466E-9A7C-CF8C786D3AD9}.Debug.ActiveCfg = Debug|.NET
+		{F1AF2551-8F38-466E-9A7C-CF8C786D3AD9}.Debug.Build.0 = Debug|.NET
+		{F1AF2551-8F38-466E-9A7C-CF8C786D3AD9}.Release.ActiveCfg = Release|.NET
+		{F1AF2551-8F38-466E-9A7C-CF8C786D3AD9}.Release.Build.0 = Release|.NET
+		{A0647B71-4197-4094-9731-2F315A4E835E}.Debug.ActiveCfg = Debug|.NET
+		{A0647B71-4197-4094-9731-2F315A4E835E}.Debug.Build.0 = Debug|.NET
+		{A0647B71-4197-4094-9731-2F315A4E835E}.Release.ActiveCfg = Release|.NET
+		{A0647B71-4197-4094-9731-2F315A4E835E}.Release.Build.0 = Release|.NET
+		{FC854AC6-BAA3-431B-87D7-669A7EAC487B}.Debug.ActiveCfg = Debug|.NET
+		{FC854AC6-BAA3-431B-87D7-669A7EAC487B}.Debug.Build.0 = Debug|.NET
+		{FC854AC6-BAA3-431B-87D7-669A7EAC487B}.Release.ActiveCfg = Release|.NET
+		{FC854AC6-BAA3-431B-87D7-669A7EAC487B}.Release.Build.0 = Release|.NET
+		{73F8E649-F56D-45E0-9C3C-BF17FA674863}.Debug.ActiveCfg = Debug|.NET
+		{73F8E649-F56D-45E0-9C3C-BF17FA674863}.Debug.Build.0 = Debug|.NET
+		{73F8E649-F56D-45E0-9C3C-BF17FA674863}.Release.ActiveCfg = Release|.NET
+		{73F8E649-F56D-45E0-9C3C-BF17FA674863}.Release.Build.0 = Release|.NET
+		{7FAEAD37-1F6F-42AC-81A2-6E75A174FBFC}.Debug.ActiveCfg = Debug|.NET
+		{7FAEAD37-1F6F-42AC-81A2-6E75A174FBFC}.Debug.Build.0 = Debug|.NET
+		{7FAEAD37-1F6F-42AC-81A2-6E75A174FBFC}.Release.ActiveCfg = Release|.NET
+		{7FAEAD37-1F6F-42AC-81A2-6E75A174FBFC}.Release.Build.0 = Release|.NET
+		{2706D59E-5F5C-4B3F-8E2B-D5D3C85960C0}.Debug.ActiveCfg = Debug|.NET
+		{2706D59E-5F5C-4B3F-8E2B-D5D3C85960C0}.Debug.Build.0 = Debug|.NET
+		{2706D59E-5F5C-4B3F-8E2B-D5D3C85960C0}.Release.ActiveCfg = Release|.NET
+		{2706D59E-5F5C-4B3F-8E2B-D5D3C85960C0}.Release.Build.0 = Release|.NET
+		{9EEB6208-01FF-4BBE-B55F-8F0DE4D18767}.Debug.ActiveCfg = Debug|.NET
+		{9EEB6208-01FF-4BBE-B55F-8F0DE4D18767}.Debug.Build.0 = Debug|.NET
+		{9EEB6208-01FF-4BBE-B55F-8F0DE4D18767}.Release.ActiveCfg = Release|.NET
+		{9EEB6208-01FF-4BBE-B55F-8F0DE4D18767}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

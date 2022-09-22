@@ -1,0 +1,10 @@
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\HMTLib\bin\HMTLib.dll
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\HMTLib\bin\HMTLib.pdb
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\HMTLib\bin\HMTLib.xml
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\HMTLib\obj\Debug\HMTLib.vbproj.AssemblyReference.cache
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\HMTLib\obj\Debug\HMTLib.TreeViewEX.resources
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\HMTLib\obj\Debug\HMTLib.vbproj.GenerateResource.cache
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\HMTLib\obj\Debug\HMTLib.vbproj.CoreCompileInputs.cache
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\HMTLib\obj\Debug\HMTLib.dll
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\HMTLib\obj\Debug\HMTLib.xml
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\HMTLib\obj\Debug\HMTLib.pdb

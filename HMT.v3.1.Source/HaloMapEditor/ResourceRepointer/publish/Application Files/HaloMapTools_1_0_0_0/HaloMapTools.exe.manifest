@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HaloMapTools.exe" version="1.0.0.0" publicKeyToken="e9a1415f12343236" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="HaloSoundEditor.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HaloMapTools" version="1.0.8299.40349" language="neutral" processorArchitecture="msil" />
+    <commandLine file="HaloMapTools.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BitmLib.dll" size="55296">
+      <assemblyIdentity name="BitmLib" version="1.0.8299.40232" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+Cj0hXBswri+ZgIcVGaLKfkigZM3kTDuuBqTMvchbHc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HaloMap.dll" size="69632">
+      <assemblyIdentity name="HaloMap" version="1.0.8299.40232" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3g6oRTlwBvjK2jqOUMvxeRQ1kZO3LC2wj8sWKmDbLNI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HaloMapTools.exe" size="468904">
+      <assemblyIdentity name="HaloMapTools" version="1.0.8299.40349" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uZ1XXkdWuVQ3aqME2pjpMvN2YgTCBzJiK/xipV2iq94=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HMTLib.dll" size="11776">
+      <assemblyIdentity name="HMTLib" version="1.0.8299.40096" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8+O+O9s9x+JI+/XXUXRZZbtSQNh5TXWbzouc3eyZxwc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KnobControl.dll" size="14848">
+      <assemblyIdentity name="KnobControl" version="1.0.8299.40096" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Yamt64F1XEuS4pn6CLOuX9v1Xs7/iAbbMCAC63ovYeo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.DirectX.Direct3D.dll" size="473600">
+      <assemblyIdentity name="Microsoft.DirectX.Direct3D" version="1.0.2902.0" publicKeyToken="31BF3856AD364E35" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8zWdXkGx1P7HIwV5pZPkD+RPav36zR4rvlLuBthGhvs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScnrLib.dll" size="39936">
+      <assemblyIdentity name="ScnrLib" version="1.0.8299.40232" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wokEtJ+t8XmKIJtpejttO0XOLqqiU3QhyDtqqMDv29c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sndLib.dll" size="40960">
+      <assemblyIdentity name="sndLib" version="1.0.8299.40232" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xunfF6Db4kR7cTbkDqyJypEzZZbJF6OY8qtgGXxmPIo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XMLLib.dll" size="27136">
+      <assemblyIdentity name="XMLLib" version="1.0.8299.40232" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jWAqUw+6Nz23W3DuZGw7z0/tWfGHVAgsF/hQpfAeJFI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XPanderControl.dll" size="53248">
+      <assemblyIdentity name="XPanderControl" version="1.1.0.0" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+ZPVHpfG0m7ZkMb76ZoNpzhQENIej0duqt7YalBmF98=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="HaloMapTools.exe.config" size="1367">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OMOpDNPURAWRONIu98gLwruGl/Ml32gd4t4MCO3Vt0M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HaloSoundEditor.ico" size="18854">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v1IHGaHYPeetgoysks+MjNF9mFb7eT7Ryhv3jbrkcgw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=KRATOS\matth" issuerKeyHash="199564f6d31af9e2a596451064c2179cfb2484c5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QJ6gYCBfORMCdkeuHibyfZ5I/nKAdp2ilosVd5Sc9a4=</DigestValue></Reference></SignedInfo><SignatureValue>k5lTmfrJbwZHfPziWSB0Btt8z3v70bUE9MI6OVlX09af8DwKcdhTLL0upKxotQ+5g+YcbxAr243ClIRovwh+9PEPoFNW+/u6CAfjKzv6ZSkwinRVjz7226m1A3kHbdC37EEciXn/fan2k3716pTAMg8ilu6rpx0XqRR0XRYamNo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zEp7ewdUT3FuBnyKD9XCp/+lWmQL3344jdaRaJnbtxyKOMyvJJxXXY2n2hMUEzH/Z9E8f6IwadqGrT5dItqmLxhVxIMvtye+6FoiLLMkHPgrOxzm5ZE+Be79zYNNJmSCVkqIWvvlawv4Mn7zur9CwCx56CcrQwTDe/jZg5ZpaW0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aef59c9477158b96a29d768072fe489e7df2261eae47760213395f2060a09e40" Description="" Url=""><as:assemblyIdentity name="HaloMapTools.exe" version="1.0.0.0" publicKeyToken="e9a1415f12343236" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KRATOS\matth</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BTrua2pUVGsar3XdzM7P0PP5G9Dc1nSvaT6hw56eqlU=</DigestValue></Reference></SignedInfo><SignatureValue>GKrk+SLmEZ2pIba3Xn94C52iHnDrwNKbUEU8nzSdRJjmj4ZFANqr7xiGA5ahGf85oeW5ytTzc/qFih1HnMkHZF+Wb1Zaj3j176gAK3mxrfbTYedD0UFdC+ohP2Gls1sYRttUBzU5VJ7GBfjmjxPst7x3bsgp7UtGLSZ/03LgFzg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zEp7ewdUT3FuBnyKD9XCp/+lWmQL3344jdaRaJnbtxyKOMyvJJxXXY2n2hMUEzH/Z9E8f6IwadqGrT5dItqmLxhVxIMvtye+6FoiLLMkHPgrOxzm5ZE+Be79zYNNJmSCVkqIWvvlawv4Mn7zur9CwCx56CcrQwTDe/jZg5ZpaW0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQGFa5L2YfOqNF2DM9Iav1eTANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgASwBSAEEAVABPAFMAXABtAGEAdAB0AGgwHhcNMjIwOTIyMDMyNDU3WhcNMjMwOTIyMDkyNDU3WjAjMSEwHwYDVQQDHhgASwBSAEEAVABPAFMAXABtAGEAdAB0AGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMxKe3sHVE9xbgZ8ig/Vwqf/pVpkC99+OI3WkWiZ27ccijjMryScV12Np9oTFBMx/2fRPH+iMGnahq0+XSLapi8YVcSDL7cnvuhaIiyzJBz4Kzsc5uWRPgXu/c2DTSZkglZKiFr75WsL+DJ+87q/QsAseegnK0MEw3v42YOWaWltAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAv7NO4kfsqTnl3mEvNOy3GmpRE8e19okzh440ZHx1xzxAOOwPrDUOL7n70MCFcaDKd5RfSSn8UPUUUOhQf6EEewPU/CQG+0GFVGFU1eSZG8r4qIfpbuUNO20hf01UPuMoNzP7Z6wBCksuxeKsvCpWObxaksCSdk+clHacRjtNfLI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

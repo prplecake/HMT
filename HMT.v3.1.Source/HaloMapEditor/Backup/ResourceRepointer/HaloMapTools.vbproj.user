@@ -1,0 +1,48 @@
+<VisualStudioProject>
+    <VisualBasic LastOpenVersion = "7.10.3077" >
+        <Build>
+            <Settings ReferencePath = "c:\documents and settings\administrator\desktop\xpander_src\xpandercontrol\bin\;C:\Documents and Settings\Administrator\Desktop\DirectX.NET-Framework-Source\;C:\Documents and Settings\Administrator\Desktop\Unzipped folders (Maybe)\XPander_src\XPanderControl\bin\;C:\Programming Projects\Halo Map Editor\HaloMapEditor\ResourceRepointer\;C:\Documents and Settings\Tandy\Desktop\Programming Projects\Halo Map Editor\HaloMapEditor\ResourceRepointer\;Z:\Halo Map Tools V2\HaloMapEditor\ResourceRepointer\;C:\Programming Projects\Halo Map Tools V2\HaloMapEditor\ResourceRepointer\;C:\Programming Projects\Halo Map Tools V2\HaloMapEditor\ResourceRepointer\bin\" >
+                <Config
+                    Name = "Debug"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "false"
+                />
+                <Config
+                    Name = "Release"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "false"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+            ProjectTrust = "0"
+        />
+    </VisualBasic>
+</VisualStudioProject>
+

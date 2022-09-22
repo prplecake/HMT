@@ -1,0 +1,17 @@
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\bin\XMLLib.dll
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\bin\XMLLib.pdb
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\bin\XMLLib.xml
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\bin\HaloMap.dll
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\bin\HMTLib.dll
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\bin\HaloMap.pdb
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\bin\HaloMap.xml
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\bin\HMTLib.pdb
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\bin\HMTLib.xml
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\obj\Debug\XMLLib.vbproj.AssemblyReference.cache
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\obj\Debug\XMLLib.XMLGUI.resources
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\obj\Debug\XMLLib.vbproj.GenerateResource.cache
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\obj\Debug\XMLLib.vbproj.CoreCompileInputs.cache
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\obj\Debug\XMLLib.vbproj.CopyComplete
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\obj\Debug\XMLLib.dll
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\obj\Debug\XMLLib.xml
+C:\Users\matth\Downloads\HMT.v3.1.Source\HMT.v3.1.Source\HaloMapEditor\XMLLib\obj\Debug\XMLLib.pdb
