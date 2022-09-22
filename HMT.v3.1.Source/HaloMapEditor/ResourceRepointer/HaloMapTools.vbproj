@@ -189,9 +189,6 @@
     <EmbeddedResource Include="frmAbout.resx">
       <DependentUpon>frmAbout.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmBox.resx">
-      <DependentUpon>frmBox.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmGenerateHeader.resx">
       <DependentUpon>frmGenerateHeader.vb</DependentUpon>
     </EmbeddedResource>
